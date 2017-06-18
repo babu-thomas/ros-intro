@@ -48,4 +48,5 @@ int main(int argc, char **argv)
 		// Sleep for the appropriate amount of time so as to maintain 10 Hz publishing rate
 		loop_rate.sleep();
 	}
+	return 0;
 }
