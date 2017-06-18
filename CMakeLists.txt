@@ -27,3 +27,6 @@ include_directories(
 
 add_executable(demo_topic_publisher src/demo_topic_publisher.cpp)
 target_link_libraries(demo_topic_publisher ${catkin_LIBRARIES})
+
+add_executable(demo_topic_subscriber src/demo_topic_subscriber.cpp)
+target_link_libraries(demo_topic_subscriber ${catkin_LIBRARIES})
