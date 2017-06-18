@@ -26,5 +26,4 @@ include_directories(
 )
 
 add_executable(demo_topic_publisher src/demo_topic_publisher.cpp)
-add_dependencies(demo_topic_publisher ros_intro_generate_messages_cpp)
 target_link_libraries(demo_topic_publisher ${catkin_LIBRARIES})
